@@ -27,7 +27,7 @@
 <hiddenInSitemap>1</hiddenInSitemap>
 <javaScript/>
 <css/>
-<theme><link href="../../../../Themes/corporate/Corporate%20Theme.xml" path="/Themes/corporate/Corporate%20Theme"/></theme>
+<theme><link href="../../../../Themes/chefcorp/Chefcorp%20Theme.xml" path="/Themes/chefcorp/Chefcorp%20Theme"/></theme>
 <favicon href="Homepage.favicon.x-icon" mimetype="image/x-icon"/>
 <placement><Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
 <StructProperty Name="placements_2">

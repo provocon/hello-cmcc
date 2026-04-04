@@ -5,7 +5,7 @@ use it to set up a new site next to existing ones or even in an otherwise empty
 system.
 
 Of course global base content and themes must be available and the theme in use
-defaults to the `corporate-theme`.
+defaults to the `chefcorp-theme`.
 
 Other Demo content may reside next to this.
 
@@ -13,7 +13,7 @@ Other Demo content may reside next to this.
 ## Feedback
 
 Feel invited to use the [issues][issues] section of this repository at
-[github][github] for feedback.
+[Codeberg][codeberg] for any find of feedback.
 
 
 ## Configure Content
@@ -80,5 +80,6 @@ To set the host mapping base value use the following property:
 ./gradlew -Psitemapping=helloagain build
 ```
 
-[issues]: https://github.com/provocon/hello-cms-9/issues
+[issues]: https://codeberg.org/provocon/hello-cmcc/issues
+[codeberg]: https://codeberg.org/provocon/hello-cmcc
 [github]: https://github.com/provocon/hello-cms-9
