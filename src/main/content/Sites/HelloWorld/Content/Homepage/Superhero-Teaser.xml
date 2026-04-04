@@ -17,9 +17,9 @@
 <subjectTaxonomy/>
 <locationTaxonomy/>
 <contexts/>
-<teaserTitle>We're now running CoreMedia CMS-9</teaserTitle>
+<teaserTitle>We're now running CoreMedia Content Cloud</teaserTitle>
 <teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <p>Homepage CoreMedia CMS-9</p>
+    <p>Homepage CoreMedia Content Cloud</p>
   </div></teaserText>
 <pictures><link href="../../Assets/Images/image.xml" path="/Sites/@contentpath@/Assets/Images/image"/></pictures>
 <related/>
