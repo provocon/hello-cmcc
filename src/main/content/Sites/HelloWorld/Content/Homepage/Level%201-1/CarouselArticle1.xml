@@ -20,6 +20,6 @@
 <detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink">
     <p>Carousel Article Detail Text.</p>
   </div></detailText>
-<pictures><link href="../../../Assets/Images/image.xml" path="/Sites/@contentpath@/Assets/Images/image"/></pictures>
+<pictures><link href="../../Images/image.xml" path="/Sites/@contentpath@/Content/Images/image"/></pictures>
 <related/>
 </CMArticle>

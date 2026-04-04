@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<CMPicture folder="/Sites/@contentpath@/Assets/Images" name="image" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<CMPicture folder="/Sites/@contentpath@/Content/Images" name="image" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
 <locale>@locale@</locale>
 <master/>
 <viewtype/>
