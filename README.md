@@ -80,6 +80,25 @@ To set the host mapping base value use the following property:
 ./gradlew -Psitemapping=helloagain build
 ```
 
+
+## Import
+
+The resulting ZIP-Files containing the customized site data is meant to be
+transformed into content objects in the content management server by means of
+the rather simplistic `serverimport` command line tool.
+
+For a given on cloud service account with a sandbox `$CMCC_SERVICE_SANDBOX` for
+which the cloud manager is provided at `$CMCC_SERVIVE_CUSTOMER.coremedia.cloud`,
+the resulting command looks something like
+
+```
+cmcc$ apps/content-server/modules/cmd-tools/cms-tools-application/target/cms-tools/bin/cm serverimport \
+           -u <somecmccuser> -p <thatveryuserspassword> -r \
+           --zip ../hello-cmcc/build/distributions/*zip \
+           --url http://$CMCC_SERVICE_SANDBOX.sandbox.$CMCC_SERVICE_CUSTOMER.coremedia.cloud:40180/ior
+```
+
+
 [issues]: https://codeberg.org/provocon/hello-cmcc/issues
 [codeberg]: https://codeberg.org/provocon/hello-cmcc
 [github]: https://github.com/provocon/hello-cms-9
